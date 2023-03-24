@@ -11,7 +11,7 @@ file_names = [f for f in os.listdir(folder_path) if f.endswith(".html")]
 search_text = 'class="visually-hidden"><!---->View'
 
 # Open a CSV file in write mode and write the profile names to it
-with open("links.csv", mode="w") as file:
+with open("names.csv", mode="w") as file:
     writer = csv.writer(file)
     writer.writerow(["Profile Name"])
 
